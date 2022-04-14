@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch cf",
+            "request": "launch",
+            "mainClass": "cf",
+            "projectName": "Java Programs_bc13f880"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

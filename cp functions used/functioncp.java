@@ -10,7 +10,7 @@ public class functioncp {
         // of a number in a line.(good method)
         // System.out.println(gcd(12,13));
         // System.out.println(lcm(6, 9));
-        // System.out.println(isprime(101));
+         System.out.println(isprime(5));
         // System.out.println("Prime factors are:");
         // primefactorprint(450);
         alldivisors(194);

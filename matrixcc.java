@@ -1,8 +1,7 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.*;
 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 public class matrixcc {
     static class FastReader {
         BufferedReader br;
@@ -83,9 +82,6 @@ public class matrixcc {
 //
 /* package codechef; // don't place package name! */
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
 class Codechef
