@@ -16,7 +16,6 @@ public static void main(String[] args) {
     if(x==-1)System.out.println("element not found");
     else
     System.out.println("Found at "+(x+1)+" position");
-    
 }  
 static int binarySearch(int[] arr,int target)  {
     int low = 0;

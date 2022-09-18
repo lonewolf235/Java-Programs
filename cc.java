@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class cc {
     public static void main(String[] args) {
@@ -7,34 +9,27 @@ public class cc {
             int t = sc.nextInt();
 
             while (t-- > 0) {
-                int n = sc.nextInt();
-                int[] cat  = new int[n];
-                int[] dog = new int[n];
-                for (int i = 0; i < cat.length; i++){
-                    cat[i]=sc.nextInt();
+                int a = sc.nextInt();
+                sc.nextLine();
+                String s = sc.nextLine();
+                String r = sc.nextLine();
+                int count = 0;
+                for (int i = 0; i < a; i++) {
+                    char c1 = s.charAt(i);
+                    char c2 = r.charAt(i);
+                    if (c1 != c2)
+                        count++;
                 }
-                for (int i = 0; i < dog.length; i++){
-                    dog[i]=sc.nextInt();
-                }
-                Arrays.sort(cat);
-                Arrays.sort(dog);
-                for(int i = 0,j=n-1; i < n/2; i++,j--){
-                    int temp= dog[i];
-                    dog[i]=dog[j];
-                    dog[j]=temp;
-                }
-                int max=0;
-                for(int i = 0; i < cat.length; i++){
-                    max=Math.max(max, cat[i]+dog[i]);
-                }
-                System.out.println(max);
-
+                if (count % 2 == 0)
+                    System.out.println(1);
+                else
+                    System.out.println(0);
             }
+        }
 
-        } catch (Exception e) {
+        catch (Exception e) {
             return;
         }
 
     }
-
 }

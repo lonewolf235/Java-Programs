@@ -8,9 +8,9 @@ public class functioncp {
         // System.out.println(trailingzeroinfactorial(100));
         // System.out.println((int)Math.log10(121)+1); //Used for calculating the digits
         // of a number in a line.(good method)
-        // System.out.println(gcd(12,13));
+        System.out.println(gcd(12, 18));
         // System.out.println(lcm(6, 9));
-         System.out.println(isprime(5));
+        System.out.println(isprime(5));
         // System.out.println("Prime factors are:");
         // primefactorprint(450);
         alldivisors(194);
